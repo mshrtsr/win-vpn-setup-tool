@@ -18,7 +18,7 @@ set VPN_SERVER_ADDRESS=your.vpnserver.comm
 set VPN_TYPE=L2tp
 set VPN_PRESHARED_KEY=YourPresharedKey
 rem Accepted values: Pap, Chap, MSChapv2, Eap, MachineCertificate
-set VPN_AUTH_PROTOCOL=Pap
+set VPN_AUTH_PROTOCOL=MSChapv2
 rem Accepted values: NoEncryption, Optional, Required, Maximum, Custom
 set ENCRYPTION_LEVEL=Optional
 set CONNECTION_TEST_NAME=Your Connection Test Server
