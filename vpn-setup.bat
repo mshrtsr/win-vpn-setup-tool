@@ -35,7 +35,7 @@ echo ユーザー名： %VPN_USER_NAME%
 echo パスワード： **********
 
 echo ------------------------------------------------------
-powershell Add-VpnConnection -Name "%VPN_LABEL_PS%" -ServerAddress %VPN_SERVER_ADDRESS% -TunnelType "%VPN_TYPE%" -EncryptionLevel "%ENCRYPTION_LEVEL%" -AuthenticationMethod %VPN_AUTH_PROTOCOL% -SplitTunneling -L2tpPsk %VPN_PRESHARED_KEY% -Force -RememberCredential -PassThru
+powershell Add-VpnConnection -Name "%VPN_LABEL_PS%" -ServerAddress %VPN_SERVER_ADDRESS% -TunnelType "%VPN_TYPE%" -EncryptionLevel "%ENCRYPTION_LEVEL%" -AuthenticationMethod %VPN_AUTH_PROTOCOL% -L2tpPsk %VPN_PRESHARED_KEY% -Force -RememberCredential -PassThru
 echo ------------------------------------------------------
 echo %VPN_LABEL%に接続します
 echo ------------------------------------------------------
